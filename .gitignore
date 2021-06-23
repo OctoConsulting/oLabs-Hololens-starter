@@ -7,10 +7,8 @@
 [Ww]indows/
 
 # asset store assets
-Assets/Infinity*
-Assets/TextMesh Pro
-Assets/Mixed*
-Packages/
+
+
 
 
 Lightmap*
