@@ -3,8 +3,13 @@
  
  Everything that you need to start a new H2 app is included: proper UWP settings, essential logos, basic UIs, etc.
  
- Clone the repo and start developing right away.
  
- ## Versions
+ ## Required Software Versions
  
- Unity 2020.3.10f1
+ * Unity 2020.3.10f1
+ * [MRTK Feature Tool](https://docs.microsoft.com/en-us/windows/mixed-reality/develop/unity/welcome-to-mr-feature-tool)
+
+
+## Procedure
+* Pull down the repo and unzip into an approptiate directory
+* Add this directory via Unity Hub
