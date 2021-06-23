@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: Octo
-  productName: Surge-Hololens
+  productName: Hololens-
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -39,8 +39,12 @@ PlayerSettings:
     y: 0
     width: 1
     height: 1
-  m_SplashScreenLogos: []
-  m_VirtualRealitySplashScreen: {fileID: 0}
+  m_SplashScreenLogos:
+  - logo: {fileID: 21300000, guid: 3560d34312dd55b4f9061ee627035a2a, type: 3}
+    duration: 2
+  - logo: {fileID: 21300000, guid: a582aa4b41f17cb49b81e806572cc0e8, type: 3}
+    duration: 2
+  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: a582aa4b41f17cb49b81e806572cc0e8, type: 3}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
@@ -128,7 +132,9 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 0.1
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 6952339775345857674, guid: 6860264b003abed42a881263befbf83f, type: 2}
+  - {fileID: -2185510156362015918, guid: 78ec36bde218cb14ab9662dcf7633909, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -598,14 +604,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Surge-Hololens-App
+  metroPackageName: Hololens-App
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: 
+  metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Surge-Hololens-App
+  metroCertificateSubject: Octo
+  metroCertificateIssuer: Octo
+  metroCertificateNotAfter: 80fab1894787d801
+  metroApplicationDescription: Hololens-App
   wsaImages: {}
   metroTileShortName: Surge-Hololens
   metroTileShowName: 0
